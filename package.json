@@ -4,6 +4,7 @@
     "main": "index.js",
     "license": "MIT",
     "scripts": {
+        "setup": "yarn install && mkdir logs && mkdir config && mkdir -p /config/env",
         "dev": "backpack dev"
     },
     "dependencies": {
